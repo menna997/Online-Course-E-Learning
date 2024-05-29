@@ -1,0 +1,117 @@
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family_1;
+    background-color: $background-color_1;
+    border-radius: 8px;
+}
+
+.header {
+    background-color: $background-color_1;
+    .sub {
+        background: $background-color_2;
+        color: $color_1;
+    }
+    .sign-up {
+        background: transparent;
+    }
+}
+
+.login-cover {
+    background: $background-color_2;
+}
+
+.intro-btn {
+    .explore-btn {
+        background-color: $background-color_2;
+        color: $color_1;
+    }
+    .pricing-btn {
+        background-color: $background-color_3;
+        color: $color_3;
+    }
+}
+
+.intro-container {
+    background: White;
+    .title-unlock {
+        color: $color_2;
+    }
+    .title-creative {
+        color: $color_3;
+    }
+}
+
+.intro-heading {
+    color: $color_3;
+}
+
+.intro-description {
+    color: $color_3;
+}
+
+.info-label {
+    color: $color_4;
+    .period {
+        background: $color_1;
+    }
+    .type {
+        background: $color_1;
+    }
+}
+
+.courses-title {
+    color: $color_3;
+}
+
+.courses-description {
+    color: $color_4;
+}
+
+.section-courses {
+    .courses-paragraph {
+        h3 {
+            color: $color_3;
+        }
+        div {
+            color: $color_4;
+        }
+    }
+    .view-btn {
+        background: $background-color_3;
+    }
+}
+
+.border-Button {
+    background: $background-color_3;
+}
+
+.get-btn {
+    color: $color_5;
+}
+
+.rubber-section {
+    background: $background-color_3;
+}
+
+//color footer
+.footer {
+    .footer-content {
+        h4 {
+            color: $color_6;
+        }
+        li {
+            a {
+                color: $color_7;
+            }
+        }
+        .icons {
+            a {
+                color: $color_6;
+            }
+        }
+    }
+}
